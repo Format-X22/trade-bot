@@ -1,0 +1,50 @@
+{
+  "extends": "tslint:recommended",
+  "noUnusedLocals": true,
+  "no-unused-variable": true,
+  "rules": {
+    "array-type": false,
+    "no-any": true,
+    "semicolon": [true, "always"],
+    "interface-name": true,
+    "max-classes-per-file": true,
+    "max-line-length": [true, 120],
+    "member-access": false,
+    "no-consecutive-blank-lines": true,
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "no-empty": true,
+    "no-inferrable-types": [true, "ignore-params"],
+    "no-non-null-assertion": true,
+    "no-switch-case-fall-through": true,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": false,
+    "member-ordering": [
+      true,
+      {
+        "order": ["static-field", "instance-field", "static-method", "instance-method"]
+      }
+    ],
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "quotemark": [true, "single"],
+    "no-magic-numbers": [true, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100],
+    "strict-type-predicates": true,
+    "no-shadowed-variable": true,
+    "restrict-plus-operands": true,
+    "trailing-comma": true,
+    "no-empty-interface": true,
+    "only-arrow-functions": true,
+    "variable-name": true,
+    "indent": [true, "spaces", 4]
+  }
+}
